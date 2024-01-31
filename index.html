@@ -21,38 +21,32 @@
         />
     </head>
     <body
-        class="bg-white dark:bg-slate-900 text-sky-900 dark:text-sky-400 min-h-screen flex flex-col items-center gap-16 p-4 duration-200 ease-in-out"
+        class="bg-white dark:bg-slate-900 text-slate-600 dark:text-sky-200 min-h-screen flex flex-col items-center gap-16 p-4 duration-200 ease-in-out"
     >
         <header
-            class="max-w-3xl m-0 w-full flex flex-row items-center justify-between gap-16"
+            class="text-slate-900 dark:text-sky-400 max-w-3xl m-0 w-full flex flex-row items-center justify-between gap-16"
         >
-            <h1 class="text-sky-900 dark:text-sky-400 text-4xl font-bold">
-                KM
-            </h1>
+            <h1 class="text-4xl font-bold">KM</h1>
             <nav class="text-xl font-semibold flex items-center gap-8">
                 <a
                     href=""
-                    class="text-sky-900 dark:text-sky-400 hover:text-sky-400 dark:hover:text-sky-200"
+                    class="hover:opacity-70"
                     >GitHub</a
                 >
                 <a
                     href=""
-                    class="text-sky-900 dark:text-sky-400 hover:text-sky-400 dark:hover:text-sky-200"
+                    class="hover:opacity-70"
                     >LinkedIn</a
                 >
             </nav>
         </header>
-        <main class="max-w-3xl m-0 w-full flex flex-col gap-16">
+        <main class="max-w-3xl m-0 w-full flex flex-col gap-16 pb-16">
             <section class="flex flex-col gap-12">
-                <div class="flex flex-col gap-2">
-                    <h1
-                        class="text-sky-900 dark:text-sky-400 text-4xl font-bold"
-                    >
-                        Kyle Martin
-                    </h1>
-                    <p
-                        class="text-sky-900 dark:text-sky-400 font-semibold text-lg"
-                    >
+                <div
+                    class="text-slate-900 dark:text-sky-400 flex flex-col gap-2"
+                >
+                    <h1 class="text-4xl font-bold">Kyle Martin</h1>
+                    <p class="font-semibold text-lg">
                         Aspiring Developer with a Bachelors of Computer Science
                         who spends his freetime expanding his knowledge and
                         building applications.
@@ -61,45 +55,39 @@
                 <div class="flex flex-col md:flex-row items-stretch gap-6">
                     <div>
                         <img
-                            class="border-sky-900 dark:border-sky-400 border-4 rounded-full max-w-28 overflow-hidden aspect-square object-cover"
+                            class="border-slate-900 dark:border-sky-400 border-4 rounded-full max-w-28 overflow-hidden aspect-square object-cover"
                             src="https://media.licdn.com/dms/image/C4E03AQH5EZZJDZDNmg/profile-displayphoto-shrink_800_800/0/1551831099732?e=1712188800&v=beta&t=X4trg05RmrSCmd-7o4W394g5R-VKXhVhXF7V88cJFLk"
                             alt="profile-img"
                         />
                     </div>
-                    <div class="flex flex-col font-semibold gap-3">
+                    <div
+                        class="text-slate-900 dark:text-sky-400 flex flex-col font-semibold gap-3"
+                    >
                         <div class="flex flex-1 items-center gap-3">
                             <div class="grid place-items-center min-w-10">
                                 <i class="fa-brands fa-github text-2xl"></i>
                             </div>
-                            <p class="text-sky-900 dark:text-sky-400 text-lg">
-                                18 Repositories
-                            </p>
+                            <p class="text-lg">18 Repositories</p>
                         </div>
                         <div class="flex flex-1 items-center gap-3">
                             <div class="grid place-items-center min-w-10">
                                 <i class="fa-solid fa-user text-2xl"></i>
                             </div>
-                            <p class="text-sky-900 dark:text-sky-400 text-lg">
-                                41 Followers
-                            </p>
+                            <p class="text-lg">41 Followers</p>
                         </div>
                         <div class="flex flex-1 items-center gap-3">
                             <div class="grid place-items-center min-w-10">
                                 <i class="fa-solid fa-folder-plus text-xl"></i>
                             </div>
-                            <p class="text-sky-900 dark:text-sky-400 text-lg">
-                                431 Contributions This Year
-                            </p>
+                            <p class="text-lg">431 Contributions This Year</p>
                         </div>
                     </div>
                 </div>
-                <p
-                    class="leading-6 font-medium text-sky-600 dark:text-sky-300 w-3/4 mr-auto"
-                >
-                    I am Kyle Martin, a Computer Science graduate with Honors,
-                    passionate about continuous learning in programming, and I
-                    also enjoy reading books, playing MMORPGs, and family time.
-                    With 13 years of experience in Aerospace Systems &
+                <p class="leading-6 w-3/4 mr-auto">
+                    I am Kyle Martin, a Computer Science undergraduate with
+                    honors, passionate about continuous learning in programming,
+                    and I also enjoy reading books, playing MMORPGs, and family
+                    time. With 13 years of experience in Aerospace Systems &
                     Maintenance within the United States Air Force, I possess a
                     disciplined work ethic and technical proficiency. I am
                     seeking a junior software development role or part-time
@@ -108,17 +96,122 @@
                     innovative projects and collaborative teams.
                 </p>
                 <div class="flex items-center gap-4 mr-auto object-fill">
-                    <a href="mailto:kyle.martin.0819@gmail.com"
+                    <a
+                        class="hover:opacity-70"
+                        href="mailto:kyle.martin.0819@gmail.com"
                         ><i class="fa-solid fa-envelope"></i>
                         <span>Email Me</span></a
                     >
                 </div>
             </section>
-            <section class="flex flex-col gap-12">
-                <p class="text-sky-900 dark:text-sky-400 font-semibold text-xl">
+            <section
+                class="flex flex-col gap-4"
+                id="project-container"
+            >
+                <h1
+                    class="text-slate-900 dark:text-sky-400 font-semibold text-xl mb-6"
+                >
                     Latest Projects
-                </p>
-                <div class=""></div>
+                </h1>
+                <!-- Start of Project -->
+                <div
+                    class="flex flex-col md:flex-row justify-between items-center md:items-start gap-6"
+                    id="latest-project-1"
+                >
+                    <div class="flex flex-col gap-4">
+                        <h2
+                            class="text-slate-900 dark:text-sky-400 font-semibold"
+                        >
+                            Jan. 31, 2024
+                        </h2>
+                        <p>
+                            This is the webpage you are currently looking at.
+                            Made with ❤️ using HTML & Tailwindcss. Potentially
+                            planning on using HTMX and/or Javascript in the
+                            future for the resume modal & GitHub stats updates.
+                            This project features a light mode and dark mode
+                            theme and is Mobile Responsive.
+                        </p>
+                        <div
+                            class="flex flex-col md:flex-row gap-2 md:gap-6 items-center"
+                        >
+                            <div>
+                                <i class="fa-brands fa-github text-2xl"></i>
+
+                                <a
+                                    href="https://github.com/Thesnowmanndev/Web-Portfolio"
+                                    target="_blank"
+                                    class="text-slate-900 dark:text-sky-400 hover:opacity-70 ml-2 font-medium"
+                                >
+                                    View On GitHub
+                                </a>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-cloud"></i>
+
+                                <a
+                                    href=""
+                                    target="_blank"
+                                    class="text-slate-900 dark:text-sky-400 hover:opacity-70 ml-2 font-medium"
+                                >
+                                    Live Deployment
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="aspect-video max-w-64">
+                        <img
+                            src="public/web-portfolio.webp"
+                            alt="web-portfolio"
+                            class="border-slate-900 dark:border-sky-400 object-cover border-2 rounded-lg"
+                        />
+                    </div>
+                </div>
+                <!-- End of Project -->
+                <!-- Start of Project -->
+                <div
+                    class="flex flex-col md:flex-row justify-between items-center md:items-start gap-6 pt-6"
+                    id="latest-project-2"
+                >
+                    <div class="flex flex-col gap-4">
+                        <h2
+                            class="text-slate-900 dark:text-sky-400 font-semibold"
+                        >
+                            🕛 Project Coming Soon
+                        </h2>
+                        <p>Stay tuned for the next project...</p>
+                    </div>
+                    <div class="aspect-video max-w-64">
+                        <img
+                            src="public/time.webp"
+                            alt="time"
+                            class="border-slate-900 dark:border-sky-400 object-cover border-2 rounded-lg"
+                        />
+                    </div>
+                </div>
+                <!-- End of Project -->
+                <!-- Start of Project -->
+                <div
+                    class="flex flex-col md:flex-row justify-between items-center md:items-start gap-6 pt-6"
+                    id="latest-project-3"
+                >
+                    <div class="flex flex-col gap-4">
+                        <h2
+                            class="text-slate-900 dark:text-sky-400 font-semibold"
+                        >
+                            🕛 Project Coming Soon
+                        </h2>
+                        <p>Stay tuned for the next project...</p>
+                    </div>
+                    <div class="aspect-video max-w-64">
+                        <img
+                            src="public/time.webp"
+                            alt="time"
+                            class="border-slate-900 dark:border-sky-400 object-cover border-2 rounded-lg"
+                        />
+                    </div>
+                </div>
+                <!-- End of Project -->
             </section>
         </main>
     </body>
